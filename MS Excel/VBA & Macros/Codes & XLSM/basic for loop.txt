@@ -1,0 +1,11 @@
+Sub loop_abdul()
+    
+    Dim x As Integer
+
+    For i = 1 To 10
+        Cells(i, 1) = i * 5
+   Next i
+   MsgBox ("The end")
+End Sub
+
+

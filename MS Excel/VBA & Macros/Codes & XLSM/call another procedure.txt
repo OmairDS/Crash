@@ -1,0 +1,41 @@
+Sub Msg()
+    ' Here I am definging the variable x as an integer
+    Dim x As Integer
+    x = 4
+    Cells(4, 4) = x
+    
+    If x > 10 Then
+        Sheet1.Range("E4") = x * 2
+    ElseIf x > 5 Then
+        Sheet1.Range("E4") = x ^ 2
+    Else
+      Sheet1.Range("E4") = x - 2
+    End If
+    
+End Sub
+
+
+
+=================================================
+
+
+Sub Msg()
+    ' Here I am defining the variable x as an integer
+    Dim x As Integer
+    x = 3
+    Cells(4, 4) = x
+    
+    ' Call the other procedure to handle the conditional logic
+    HandleCondition x
+End Sub
+
+Sub HandleCondition(x As Integer)
+    If x > 10 Then
+        Sheet1.Range("E4") = x * 2
+    ElseIf x > 5 Then
+        Sheet1.Range("E4") = x ^ 2
+    Else
+        Sheet1.Range("E4") = x - 2
+    End If
+End Sub
+

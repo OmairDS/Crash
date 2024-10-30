@@ -1,0 +1,30 @@
+Sub MySub()
+    ' Code goes here
+End Sub
+
+
+Function MyFunction() As Integer
+    ' Code goes here
+    MyFunction = 5
+End Function
+
+
+
+Dim myVariable As Integer
+myVariable = 10
+
+
+If condition Then
+    ' Code block
+ElseIf condition Then
+    ' Code block
+Else
+    ' Code block
+End If
+
+For i = 1 To 10
+    ' Code block
+Next i
+
+
+

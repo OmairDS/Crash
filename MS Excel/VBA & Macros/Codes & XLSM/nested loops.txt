@@ -1,0 +1,22 @@
+Sub AssignArrayToSheet()
+    Dim myArray(2, 3) As Integer ' Define a 2-dimensional array
+    Dim i As Integer
+    Dim j As Integer
+    Dim ws As Worksheet
+    
+    ' Initialize array elements
+    For i = 0 To 2 ' Loop through rows
+        For j = 0 To 3 ' Loop through columns
+            myArray(i, j) = i * j ' Assign a value to each element
+        Next j
+    Next i
+    
+    ' Assign array values to sheet
+    Set ws = ThisWorkbook.Sheets("Sheet1") ' Change the sheet name as needed
+    
+    For i = 0 To 2 ' Loop through rows
+        For j = 0 To 3 ' Loop through columns
+            ws.Cells(i + 1, j + 1).Value = myArray(i, j) ' Assign array value to cell
+        Next j
+    Next i
+End Sub

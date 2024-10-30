@@ -1,0 +1,43 @@
+Sure, here's a list of some commonly used Excel VBA functions:
+
+1. **Worksheet Functions**: These are functions that perform calculations or operations similar to those found in Excel's worksheet functions. They can be accessed in VBA using the `WorksheetFunction` object.
+
+   Example: `WorksheetFunction.Sum`, `WorksheetFunction.Max`, `WorksheetFunction.Min`, `WorksheetFunction.Count`, etc.
+
+2. **Range Functions**: These functions are used to manipulate or interact with ranges of cells in Excel worksheets.
+
+   Example: `Range`, `Cells`, `Rows`, `Columns`, `Offset`, `EntireRow`, `EntireColumn`, etc.
+
+3. **String Functions**: These functions are used for manipulating text strings.
+
+   Example: `Len`, `Left`, `Right`, `Mid`, `Trim`, `UCase`, `LCase`, `InStr`, `Replace`, etc.
+
+4. **Mathematical Functions**: These functions are used for mathematical calculations.
+
+   Example: `Abs`, `Sqr`, `Int`, `Round`, `Ceiling`, `Floor`, `Exp`, `Log`, etc.
+
+5. **Date and Time Functions**: These functions are used for working with dates and times.
+
+   Example: `Date`, `Now`, `DateAdd`, `DateDiff`, `DateSerial`, `Month`, `Day`, `Year`, `Hour`, `Minute`, `Second`, etc.
+
+6. **Conversion Functions**: These functions are used for converting between different data types.
+
+   Example: `CStr`, `CInt`, `CDbl`, `CDate`, `CLng`, `CSng`, `CBool`, etc.
+
+7. **Error Handling Functions**: These functions are used for handling errors in VBA code.
+
+   Example: `Err`, `On Error Resume Next`, `On Error GoTo`, `Err.Number`, `Err.Description`, `Err.Raise`, etc.
+
+8. **Array Functions**: These functions are used for working with arrays in VBA.
+
+   Example: `Array`, `LBound`, `UBound`, `Join`, `Split`, etc.
+
+9. **File and Folder Functions**: These functions are used for interacting with files and folders on the filesystem.
+
+   Example: `FileExists`, `FolderExists`, `FileCopy`, `FileDelete`, `MkDir`, `ChDir`, `Dir`, `CurDir`, etc.
+
+10. **Workbook and Worksheet Functions**: These functions are used for working with workbooks and worksheets.
+
+    Example: `Workbooks`, `Worksheets`, `Sheets`, `ActiveSheet`, `ActiveWorkbook`, `ThisWorkbook`, `Workbook.Open`, `Workbook.Save`, `Worksheet.Copy`, `Worksheet.Delete`, etc.
+
+This is not an exhaustive list, but it covers many of the commonly used functions in Excel VBA. Depending on your specific requirements, you may also come across additional functions or methods provided by various Excel object models.

@@ -1,0 +1,25 @@
+Sub try()
+MsgBox ("my 1st VBA , Abdul")
+End Sub
+
+
+
+Sub try()
+MsgBox ("my 1st VBA" & vbCrLf & "Abdul")
+End Sub
+
+
+
+Sub try()
+' this is my code and I am trying to get message
+
+' I am defining a variable called x and it is an INT
+
+    Dim x As Integer
+' Assign value to variable x
+
+    x = 5
+    Dim y As String
+    y = "I am happy to join this Bootcamp"
+    MsgBox ("This my 1st code  " & y)
+End Sub
